@@ -1,0 +1,30 @@
+name: farm_desk
+description: Farm desk on Android. Scan a cow and record milk, treatment, and clinic work offline.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  sqflite: ^2.4.1
+  path: ^1.9.0
+  connectivity_plus: ^6.1.1
+  flutter_blue_plus: ^1.36.8
+  flutter_classic_bluetooth: ^1.7.1
+  permission_handler: ^11.3.1
+  uuid: ^4.5.1
+  image_picker: ^1.2.4
+  google_mlkit_text_recognition: ^0.17.1
+  crypto: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
